@@ -1,5 +1,8 @@
-@extends('layouts.app')
+@extends('dashboard')
 
+@section('header')
+Categories
+@endsection
 @section('content')
     <div class="container">
         <h1>Edit Category</h1>
